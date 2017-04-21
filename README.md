@@ -12,8 +12,7 @@ sudo apt-get install nodejs
 ```
 
 ## Setup
-* On the server (pi) create a folder that will house the code.
-* Clone this Git repository to the folder.
+* Clone this Git repository folder to the server (pi - maybe on the desktop?).
 * Install additional required js libraries with npm.
 * Launch the server.
 
