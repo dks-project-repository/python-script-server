@@ -13,13 +13,13 @@ Setup is as follows:
 	On the pi (server) create a folder that will house the code.
 	cd into the new folder in a terminal window
 	run the following:
-		git clone https://github.com/dks-project-repository/python-script-server
-		npm install
-		node app.js
+	git clone https://github.com/dks-project-repository/python-script-server
+	npm install
+	node app.js
 
-	At this point the server running on the Pi is accessible at port 3000.
-	You can verify this by going to http://localhost:3000/ on the browser on the pi.
-	To verify success of this you can also visit http://<ipAddressOfPi>:3000/ on the laptop connected to the same network.
+At this point the server running on the Pi is accessible at port 3000.
+You can verify this by going to http://localhost:3000/ on the browser on the pi.
+To verify success of this you can also visit http://<ipAddressOfPi>:3000/ on the laptop connected to the same network.
 	
 On Laptop (client):
 	Update the SampleHttp.py to have a correct base url.
