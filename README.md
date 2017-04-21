@@ -38,7 +38,7 @@ BASEURL = "http://localhost:3000/python/"
 
 def turnoffmotors():
     "turns off motors"
-    urllib.urlopen(BASEURL & "InitMotor.py").read()
+    urllib.urlopen(BASEURL + "InitMotor.py").read()
 
 atexit.register(turnoffmotors)
 
