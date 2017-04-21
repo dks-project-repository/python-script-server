@@ -12,10 +12,10 @@ sudo apt-get install nodejs
 ```
 
 ## Setup
-On the server (pi) create a folder that will house the code.
-Clone this Git repository to the folder.
-Install additional required js libraries with npm.
-Launch the server.
+* On the server (pi) create a folder that will house the code.
+* Clone this Git repository to the folder.
+* Install additional required js libraries with npm.
+* Launch the server.
 
 ```	
 git clone https://github.com/dks-project-repository/python-script-server
