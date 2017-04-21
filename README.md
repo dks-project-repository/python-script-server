@@ -27,7 +27,7 @@ node app.js
 Running ```node app.js``` launches launches the server on port 3000 in the terminal window.
 You can verify this by going to http://localhost:3000/ on the browser or http://&lt;ipaddress&gt;:3000/ from any device on the same network.
 
-Once the server is running calls can be made to various scripts in the 'PythonScriptServer/scripts' folder.
+Once the server is running calls can be made to various scripts in the 'python-script-server/scripts' folder.
 Here is a python example:
 
 ```python
