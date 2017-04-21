@@ -31,7 +31,7 @@ You can verify this by going to http://localhost:3000/ on the browser or http://
 Once the server is running calls can be made to various scripts in the 'PythonScriptServer/scripts' folder.
 Here is a python example:
 
-```python3
+```python
 "client-side code for calling pi to control motors"
 import urllib
 import atexit
@@ -54,11 +54,3 @@ for i in range(100):
 #shutdown motors:
 urllib.urlopen(BASEURL + "ShutdownMotor.py").read()
 ```
-
-
-	
-On Laptop (client):
-	Update the SampleHttp.py to have a correct base url.
-	The BASEURL variable of the python code uses "localhost" (127.0.0.1) as the hostname. 
-	When the pi is hooked up to wifi or ethernet you need to determine the ip address
-	Run the sample 
