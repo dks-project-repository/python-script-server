@@ -11,7 +11,7 @@ Nodejs comes with its own package manager -- npm (node package manager).
 
 To install nodejs run the following:
 ```
-    sudo apt-get install nodejs
+sudo apt-get install nodejs
 ```
 
 ## Setup
