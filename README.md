@@ -18,9 +18,8 @@ Install additional required js libraries with npm.
 Launch the server.
 
 ```	
-mkdir PythonScriptServer
-cd PythonScriptServer
 git clone https://github.com/dks-project-repository/python-script-server
+cd python-script-server
 npm install
 node app.js
 ```
